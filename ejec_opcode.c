@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * eject_opcode - Runs the given opcode
+ * ej_opcode - Runs the given opcode
  * @opc: opcode to run
  * @stack: pointer to stack
  * @line_num: line number of the opcode

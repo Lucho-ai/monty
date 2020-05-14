@@ -62,7 +62,7 @@ void ej_opcode(char *opc, stack_t **stack, unsigned int line_num);
 
 
 void cleanup(stack_t **stack);
-int checknum (char *str);
+int checknum(char *str);
 void add_s(stack_t **stack, stack_t *new);
 void add_q(stack_t **stack, stack_t *new);
 

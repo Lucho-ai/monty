@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * clean_up - Frees malloc objects and closes the file
+ * cleanup - Frees malloc objects and closes the file
  * @stack: Pointer to the stack
  * Return: Nothing
  */

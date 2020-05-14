@@ -5,7 +5,7 @@
  * @str: input string to check
  * Return: 1 if number, 0 otherwise
  */
-int checknum (char *str)
+int checknum(char *str)
 {
 	if (!str || !*str)
 		return (0);
