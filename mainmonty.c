@@ -21,6 +21,6 @@ int main(int ac, char **av)
 		fprintf(stderr, "Error: Can't open file %s\n", av[1]);
 		exit(EXIT_FAILURE);
 	}
-	parse_commands();
+	p_command();
 	return (EXIT_SUCCESS);
 }
