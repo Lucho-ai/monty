@@ -4,7 +4,7 @@
  * p_command - Parses the open file and executes the commands
  * Return: nothing
  */
-void parse_commands(void)
+void p_command(void)
 {
 	char *opc = NULL;
 	size_t size = 0, line_num = 1;
@@ -22,7 +22,7 @@ void parse_commands(void)
 		else
 			opc = strdup(opc);
 		mem.arg = strtok(NULL, " \n\t");
-		run_opcode(opc, &stack, line_num);
+		ej_opcode(opc, &stack, line_num);
 		line_num++;
 	};
 	cleanup(&stack);
