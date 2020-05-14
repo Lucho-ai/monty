@@ -7,7 +7,7 @@
  * @line_num: line number of the opcode
  * Return: nothing
  */
-void run_opcode(char *opc, stack_t **stack, unsigned int line_num)
+void ej_opcode(char *opc, stack_t **stack, unsigned int line_num)
 {
 	int i = 0;
 	instruction_t ins[] = {
