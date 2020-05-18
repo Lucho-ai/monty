@@ -58,18 +58,18 @@ typedef struct global
 extern ss sup;
 
 void pharser(char *buffer, stack_t **h, unsigned int count);
-void get_op_func(stack_t **h, unsigned int count, char *command);
-void _push(stack_t **head, unsigned int count);
-void free_stack(stack_t *h);
-void _add(stack_t **h, unsigned int count);
-void _pall(stack_t **h, unsigned int count);
-void _pint(stack_t **h, unsigned int count);
-void _pop(stack_t **h, unsigned int count);
-void _nop(stack_t **h, unsigned int count);
-void _swap(stack_t **h, unsigned int count);
-void _sub(stack_t **h, unsigned int count);
-void _div(stack_t **h, unsigned int count);
-void _mul(stack_t **h, unsigned int count);
-void _mod(stack_t **h, unsigned int count);
+void up_func(stack_t **h, unsigned int count, char *command);
+void push(stack_t **head, unsigned int count);
+void f_stack(stack_t *h);
+void add(stack_t **h, unsigned int count);
+void pall(stack_t **h, unsigned int count);
+void pint(stack_t **h, unsigned int count);
+void pop(stack_t **h, unsigned int count);
+void nop(stack_t **h, unsigned int count);
+void swap(stack_t **h, unsigned int count);
+void sub(stack_t **h, unsigned int count);
+void div(stack_t **h, unsigned int count);
+void mul(stack_t **h, unsigned int count);
+void mod(stack_t **h, unsigned int count);
 
 #endif /* _MONTY_H_ */
