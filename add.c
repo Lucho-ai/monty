@@ -5,7 +5,7 @@
  * @count: count of the line where the opcode is taken.
  * Return: Void
  */
-void _add(stack_t **h, unsigned int count)
+void add(stack_t **h, unsigned int count)
 {
 	stack_t *node;
 	int i = 0;
