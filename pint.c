@@ -4,7 +4,7 @@
 #include "monty.h"
 /**
  * pint - function that prints the last element of a list
- * @h : const - list_t  
+ * @h : const - list_t
  * @count: count.
  * Return: the number of notes.
  */
