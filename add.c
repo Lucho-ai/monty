@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * add - Funtionces of the opcode add.
+ * _add - Funtionces of the opcode add.
  * @h: Stack.
  * @count: count of the line where the opcode is taken.
  * Return: Void
  */
-void add(stack_t **h, unsigned int count)
+void _add(stack_t **h, unsigned int count)
 {
 	stack_t *node;
 	int i = 0;
