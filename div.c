@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * div - Funtionces of the opcode add.
+ * _div - Funtionces of the opcode add.
  * @h: Stack.
  * @count: count of the line where the opcode is taken.
  * Return: Void
  */
-void div(stack_t **h, unsigned int count)
+void _div(stack_t **h, unsigned int count)
 {
 	stack_t *node;
 	int i = 0;
