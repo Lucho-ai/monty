@@ -1,13 +1,13 @@
 #include "monty.h"
 /**
- * analityc - Parser to the buffer the comes from opcode-file.
+ * pharser - pharser to the buffer the comes from opcode-file.
  * @buffer: The buffer with the imformation.
  * @h: The stack
  * @count: Count of the line where the opcode is taken.
  * Return: Void.
  */
 
-void analityc(char *buffer, stack_t **h, unsigned int count)
+void pharser(char *buffer, stack_t **h, unsigned int count)
 {
 	char *str, *token;
 
