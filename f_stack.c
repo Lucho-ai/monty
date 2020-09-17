@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- *f_stack - Funtion that frees a list.
+ *free_stack - Funtion that frees a list.
  * @h: Head of the list.
  * Return: Void.
  */
-void f_stack(stack_t *h)
+void free_stack(stack_t *h)
 {
 	stack_t *head;
 
