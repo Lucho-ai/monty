@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * mul - Funtionces of the opcode mul.
+ * _mul - Funtionces of the opcode mul.
  * @h: Stack.
  * @count: count of the line where the opcode is taken.
  * Return: Void
  */
-void mul(stack_t **h, unsigned int count)
+void _mul(stack_t **h, unsigned int count)
 {
 	stack_t *node;
 	int i = 0;
