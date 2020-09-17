@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * pop - Funtionces of the opcode pop.
+ * _pop - Funtionces of the opcode pop.
  * @h: Stack.
  * @count: count of the line where the opcode is taken.
  * Return: Void.
  */
-void pop(stack_t **h, unsigned int count)
+void _pop(stack_t **h, unsigned int count)
 {
 	stack_t *temp;
 
