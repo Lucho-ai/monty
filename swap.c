@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * swap - Funtion that swap the last valeus.
+ * _swap - Funtion that swap the last valeus.
  * @h: Stack.
  * @count: count of the line where the opcode is taken.
  * Return: Void
  */
-void swap(stack_t **h, unsigned int count)
+void _swap(stack_t **h, unsigned int count)
 {
 	stack_t *two;
 	int i = 0, temp;
