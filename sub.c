@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * sub - Funtionces of the opcode sub.
+ * _sub - Funtionces of the opcode sub.
  * @h: Stack.
  * @count: count of the line where the opcode is taken.
  * Return: Void
  */
-void sub(stack_t **h, unsigned int count)
+void _sub(stack_t **h, unsigned int count)
 {
 	stack_t *node;
 	int i = 0;
